@@ -3,7 +3,8 @@
 ## Pré Requisite
 
 ```
-Go 1.22
+1- Go 1.22
+2- AWS CDK 
 ```
 
 ## Install Dependencies

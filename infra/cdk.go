@@ -23,7 +23,7 @@ func NewLambdaGolangProxyAPIDemoStack(scope constructs.Construct, id string, pro
 	}
 	stack := awscdk.NewStack(scope, &id, &sprops)
 
-	function := awscdklambdagoalpha.NewGoFunction(stack, jsii.String("gin-go-lambda-function"),
+	function := awscdklambdagoalpha.NewGoFunction(stack, jsii.String("mux-go-lambda-function"),
 		&awscdklambdagoalpha.GoFunctionProps{
 			Runtime: awslambda.Runtime_PROVIDED_AL2(),
 			Entry:   jsii.String(functionDir),
